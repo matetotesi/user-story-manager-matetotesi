@@ -2,9 +2,9 @@ from flask import Flask, redirect, url_for, render_template, request
 from peewee import *
 
 
-DATABASE = 'user_story_management.db'
+DATABASE = 'homework.db'
 DEBUG = True
-SECRET_KEY = 'buzisag'
+
 
 
 app = Flask(__name__)
